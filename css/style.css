@@ -1,0 +1,67 @@
+:root {
+  --accent: #095f3efb;
+  --accent-light: #567c63dc;
+  --accent-white: #fff;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--accent);
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  background-color: var(--accent);
+}
+.header a {
+  color: var(--accent-white);
+  text-decoration: none;
+}
+.header-nav {
+  padding: 11px 0;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  width: 20%;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+.header-menu {
+  width: 78%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-menu-link {
+  padding: 15px;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+.header-menu-link:hover {
+  background-color: var(--accent-light);
+}
