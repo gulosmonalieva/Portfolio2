@@ -23,6 +23,13 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+.section {
+  padding: 60px 0;
+}
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+}
 .header {
   background-color: var(--accent);
 }
@@ -64,4 +71,70 @@ body {
 }
 .header-menu-link:hover {
   background-color: var(--accent-light);
+}
+
+.intro {
+  padding: 60px 0;
+}
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-right {
+  width: 60%;
+}
+.intro-left {
+  width: 30%;
+}
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.intro-right h1,
+.intro-right h3 {
+  margin: 0 0 10px;
+}
+.contacts {
+  margin-bottom: 60px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.contacts li {
+  text-align: center;
+}
+.skills {
+  padding: 60px 0;
+  background-color: var(--accent);
+  color: var(--accent-white);
+}
+.skills ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.skills li {
+  padding: 10px 25px;
+  background-color: var(--accent-light);
+  border-radius: 4px;
+}
+.code-example pre {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  background-color: var(--accent);
+  color: var(--accent-white);
+  border-radius: 10px;
 }
