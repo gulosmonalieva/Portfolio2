@@ -138,3 +138,26 @@ body {
   color: var(--accent-white);
   border-radius: 10px;
 }
+.languages {
+  background-color: var(--accent);
+  color: var(--accent-white);
+}
+
+.languages span {
+  font-weight: bold;
+}
+
+.education span {
+  font-weight: bold;
+}
+.footer {
+  padding: 15px 0;
+  background-color: var(--accent);
+  color: var(--accent-white);
+  text-align: center;
+}
+.footer a {
+  padding: 0 15px;
+  color: var(--accent-white);
+  text-decoration: none;
+}
