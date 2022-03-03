@@ -1,6 +1,6 @@
 :root {
-  --accent: #095f3efb;
-  --accent-light: #567c63dc;
+  --accent: #053a77f3;
+  --accent-light: #336cadf3;
   --accent-white: #fff;
 }
 html {
@@ -110,7 +110,13 @@ body {
 }
 .contacts li {
   text-align: center;
+  text-decoration: none;
 }
+.contacts li a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
 .skills {
   padding: 60px 0;
   background-color: var(--accent);
@@ -141,6 +147,20 @@ body {
 .languages {
   background-color: var(--accent);
   color: var(--accent-white);
+}
+.languages ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.languages li {
+  padding: 10px 25px;
+  border-radius: 4px;
+  background-color: var(--accent-light);
 }
 
 .languages span {
