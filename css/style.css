@@ -136,16 +136,69 @@ body {
   background-color: var(--accent-light);
   border-radius: 4px;
 }
+.code-example {
+  text-align: center;
+}
+.code-example p {
+  font-style: italic;
+}
+.code-example b {
+  font-style: normal;
+}
 .code-example pre {
   width: 50%;
+
   margin: 0 auto;
   font-size: 1.1em;
+  line-height: 25px;
   background-color: var(--accent);
   color: var(--accent-white);
   border-radius: 10px;
 }
+.portfolio {
+  text-align: center;
+  border-radius: 4px;
+}
+.portfolio-img {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 0 0;
+}
+.portfolio img {
+  margin-bottom: 0;
+}
+
+.portfolio-left {
+  display: inline-block;
+
+  margin-right: 22px;
+  width: 500px;
+  height: 80px;
+
+  background-color: var(--accent);
+}
+.portfolio-right {
+  display: inline-block;
+
+  margin-left: 23px;
+  background-color: var(--accent);
+  width: 500px;
+  height: 80px;
+}
+.portfolio-left a,
+.portfolio-right a {
+  display: inline-table;
+  margin-top: 20px;
+  text-decoration: none;
+  color: var(--accent-white);
+  background-color: var(--accent-light);
+  padding: 10px 25px;
+  border-radius: 4px;
+}
 .languages {
   background-color: var(--accent);
+
   color: var(--accent-white);
 }
 .languages ul {
@@ -172,12 +225,12 @@ body {
 }
 .footer {
   padding: 15px 0;
-  background-color: var(--accent);
-  color: var(--accent-white);
+
+  color: var(--accent);
   text-align: center;
 }
 .footer a {
   padding: 0 15px;
-  color: var(--accent-white);
+  color: var(--accent);
   text-decoration: none;
 }
